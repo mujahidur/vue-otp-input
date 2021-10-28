@@ -1,0 +1,36 @@
+<style lang="scss" scoped>
+.input-wrap {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0.3rem;
+}
+.justify-space {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.box, .fallback {
+  display: inline-block;
+  height: 4.25rem;
+  text-align: center;
+  font-size: 200%;
+  border: $border;
+
+  &.empty {
+    color: transparent;
+  }
+}
+.box {
+  width: 2.9375rem;
+  padding: 0.3rem;
+}
+.fallback {
+  max-width: 14rem;
+  letter-spacing: 1rem;
+}
+</style>
+
+<div id="app">
+  test
+</div>
